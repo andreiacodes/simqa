@@ -9,5 +9,7 @@ A SIM foi fundada em 1921 por músicos da Quinta do Anjo. Mantém viva a tradiç
 
 ### Contacto
 
+Rua João de Deus, 74-76, 2950-731 Quinta do Anjo, Portugal.  
+
 Qualquer dúvida ou questão envie um e-mail para **geral.simqa@gmail.com**.   
 
