@@ -1,19 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Dança on S.I.M</title>
-    <link>https://simquintadoanjo.com/tags/dan%C3%A7a/</link>
-    <description>Recent content in Dança on S.I.M</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 18 Jan 2026 03:47:47 +0000</lastBuildDate>
-    <atom:link href="https://simquintadoanjo.com/tags/dan%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>African Dance Roots</title>
-      <link>https://simquintadoanjo.com/posts/africandanceroots/</link>
-      <pubDate>Sun, 18 Jan 2026 03:47:47 +0000</pubDate>
-      <guid>https://simquintadoanjo.com/posts/africandanceroots/</guid>
-      <description>O melhor da nossa semana! Voltámos a dançar juntos 🌱💜&#xA;Alegria, união e família — tudo aquilo que nos move 🫶🏽✨&#xA;Obrigada por fazerem parte deste caminho 🥰&#xA;🌟 Kids &amp;amp; Teens — Quinta do Anjo 2ª &amp;amp; 4ª — 18h45&#xA;@sociedadeinstrucaomusical&#xA;@kidsforeverquintadoanjo&#xA;🌿 Adultos — Quinta do Conde 3ª &amp;amp; 5ª — 20h10&#xA;📍 @uniao_udrqc&#xA;⭐ Kids &amp;amp; Teens — Quinta do Conde ⏳ Nova aula Aguarda inscrições suficientes para a sua abertura.</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Dança - Tag - Sociedade de Instução Musical da Quinta do Anjo</title>
+        <link>https://simquintadoanjo.com/tags/dan%C3%A7a/</link>
+        <description>Dança - Tag - Sociedade de Instução Musical da Quinta do Anjo</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><managingEditor>geral.simqa@gmail.com (S.I.M)</managingEditor>
+            <webMaster>geral.simqa@gmail.com (S.I.M)</webMaster><copyright>S.I.M</copyright><lastBuildDate>Sun, 18 Jan 2026 03:47:47 &#43;0000</lastBuildDate><atom:link href="https://simquintadoanjo.com/tags/dan%C3%A7a/" rel="self" type="application/rss+xml" /><item>
+    <title>African Dance Roots</title>
+    <link>https://simquintadoanjo.com/180126-africandanceroots/</link>
+    <pubDate>Sun, 18 Jan 2026 03:47:47 &#43;0000</pubDate>
+    <author>S.I.M</author>
+    <guid>https://simquintadoanjo.com/180126-africandanceroots/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/africandanceroots.png" referrerpolicy="no-referrer">
+            </div>O melhor da nossa semana! Voltámos a dançar juntos 🌱💜
+Alegria, união e família — tudo aquilo que nos move 🫶🏽✨
+Obrigada por fazerem parte deste caminho 🥰
+🌟 Kids &amp; Teens — Quinta do Anjo 2ª &amp; 4ª — 18h45
+@sociedadeinstrucaomusical
+@kidsforeverquintadoanjo
+🌿 Adultos — Quinta do Conde 3ª &amp; 5ª — 20h10
+📍 @uniao_udrqc
+⭐ Kids &amp; Teens — Quinta do Conde ⏳ Nova aula Aguarda inscrições suficientes para a sua abertura.]]></description>
+</item>
+</channel>
 </rss>

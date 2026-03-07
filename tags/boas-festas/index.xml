@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Boas Festas on S.I.M</title>
-    <link>https://simquintadoanjo.com/tags/boas-festas/</link>
-    <description>Recent content in Boas Festas on S.I.M</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 22 Dec 2025 17:10:15 +0000</lastBuildDate>
-    <atom:link href="https://simquintadoanjo.com/tags/boas-festas/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Boas Festas 2025</title>
-      <link>https://simquintadoanjo.com/posts/boas-festas25/</link>
-      <pubDate>Mon, 22 Dec 2025 17:10:15 +0000</pubDate>
-      <guid>https://simquintadoanjo.com/posts/boas-festas25/</guid>
-      <description>✨ Boas Festas! ✨ A Sociedade de Instrução Musical da Quinta do Anjo deseja a todos uma quadra natalícia vivida com paz, saúde e harmonia.&#xA;Agradecemos sinceramente a todos os que, ao longo do ano, caminharam connosco e contribuíram para manter viva a música, a cultura e o espírito de comunidade.&#xA;Que o novo ano traga novas melodias, novos encontros e muitas razões para continuarmos a celebrar juntos. 🎶&#xA;Com os melhores votos,</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Boas Festas - Tag - Sociedade de Instução Musical da Quinta do Anjo</title>
+        <link>https://simquintadoanjo.com/tags/boas-festas/</link>
+        <description>Boas Festas - Tag - Sociedade de Instução Musical da Quinta do Anjo</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><managingEditor>geral.simqa@gmail.com (S.I.M)</managingEditor>
+            <webMaster>geral.simqa@gmail.com (S.I.M)</webMaster><copyright>S.I.M</copyright><lastBuildDate>Mon, 22 Dec 2025 17:10:15 &#43;0000</lastBuildDate><atom:link href="https://simquintadoanjo.com/tags/boas-festas/" rel="self" type="application/rss+xml" /><item>
+    <title>Boas Festas 2025</title>
+    <link>https://simquintadoanjo.com/221225-natal25/</link>
+    <pubDate>Mon, 22 Dec 2025 17:10:15 &#43;0000</pubDate>
+    <author>S.I.M</author>
+    <guid>https://simquintadoanjo.com/221225-natal25/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/boas-festas25.png" referrerpolicy="no-referrer">
+            </div>✨ Boas Festas! ✨ A Sociedade de Instrução Musical da Quinta do Anjo deseja a todos uma quadra natalícia vivida com paz, saúde e harmonia.
+Agradecemos sinceramente a todos os que, ao longo do ano, caminharam connosco e contribuíram para manter viva a música, a cultura e o espírito de comunidade.
+Que o novo ano traga novas melodias, novos encontros e muitas razões para continuarmos a celebrar juntos. 🎶
+Com os melhores votos,]]></description>
+</item>
+</channel>
 </rss>

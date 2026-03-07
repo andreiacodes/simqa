@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pagamentos on S.I.M</title>
-    <link>https://simquintadoanjo.com/tags/pagamentos/</link>
-    <description>Recent content in Pagamentos on S.I.M</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 23:30:29 +0000</lastBuildDate>
-    <atom:link href="https://simquintadoanjo.com/tags/pagamentos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pagamento de Quotas</title>
-      <link>https://simquintadoanjo.com/posts/quotas26/</link>
-      <pubDate>Tue, 17 Feb 2026 23:30:29 +0000</pubDate>
-      <guid>https://simquintadoanjo.com/posts/quotas26/</guid>
-      <description>📌 AVISO IMPORTANTE | PAGAMENTO DE QUOTAS Caros(as) Sócios(as),&#xA;A Direção da Sociedade de Instrução Musical da Quinta do Anjo informa que a S.I.M. deixou de ter cobrador, pelo que o pagamento das quotas passa a ser feito de forma mais simples, através de uma destas opções:&#xA;✅ No Bar da S.I.M. ✅ Diretamente com um membro da Direção ✅ Por Transferência Bancária (dados fornecidos mediante pedido) 📩 Para pagamentos por transferência, dúvidas ou qualquer apoio, contacte-nos por email:</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Pagamentos - Tag - Sociedade de Instução Musical da Quinta do Anjo</title>
+        <link>https://simquintadoanjo.com/tags/pagamentos/</link>
+        <description>Pagamentos - Tag - Sociedade de Instução Musical da Quinta do Anjo</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><managingEditor>geral.simqa@gmail.com (S.I.M)</managingEditor>
+            <webMaster>geral.simqa@gmail.com (S.I.M)</webMaster><copyright>S.I.M</copyright><lastBuildDate>Tue, 17 Feb 2026 23:30:29 &#43;0000</lastBuildDate><atom:link href="https://simquintadoanjo.com/tags/pagamentos/" rel="self" type="application/rss+xml" /><item>
+    <title>Pagamento de Quotas</title>
+    <link>https://simquintadoanjo.com/170226-quotas/</link>
+    <pubDate>Tue, 17 Feb 2026 23:30:29 &#43;0000</pubDate>
+    <author>S.I.M</author>
+    <guid>https://simquintadoanjo.com/170226-quotas/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/quotas26.png" referrerpolicy="no-referrer">
+            </div>📌 AVISO IMPORTANTE | PAGAMENTO DE QUOTAS Caros(as) Sócios(as),
+A Direção da Sociedade de Instrução Musical da Quinta do Anjo informa que a S.I.M. deixou de ter cobrador, pelo que o pagamento das quotas passa a ser feito de forma mais simples, através de uma destas opções:
+✅ No Bar da S.I.M. ✅ Diretamente com um membro da Direção ✅ Por Transferência Bancária (dados fornecidos mediante pedido) 📩 Para pagamentos por transferência, dúvidas ou qualquer apoio, contacte-nos por email:]]></description>
+</item>
+</channel>
 </rss>
