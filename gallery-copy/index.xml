@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gallery Copies on Sociedade de Instução Musical da Quinta do Anjo</title>
+    <link>http://localhost:1313/gallery-copy/</link>
+    <description>Recent content in Gallery Copies on Sociedade de Instução Musical da Quinta do Anjo</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <managingEditor>geral.simqa@gmail.com (S.I.M)</managingEditor>
+    <webMaster>geral.simqa@gmail.com (S.I.M)</webMaster>
+    <copyright>S.I.M</copyright>
+    <lastBuildDate>Sat, 07 Mar 2026 06:06:59 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/gallery-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalações da S.I.M</title>
+      <link>http://localhost:1313/gallery-copy/sede/</link>
+      <pubDate>Sat, 07 Mar 2026 06:06:59 +0000</pubDate><author>geral.simqa@gmail.com (S.I.M)</author>
+      <guid>http://localhost:1313/gallery-copy/sede/</guid>
+      <description>Clica nas imagens para navegares de forma fácil!! Sede </description>
+    </item>
+  </channel>
+</rss>
