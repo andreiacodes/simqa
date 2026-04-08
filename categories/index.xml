@@ -1,80 +1,85 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Categoria - Sociedade de Instução Musical da Quinta do Anjo</title>
-        <link>https://simquintadoanjo.com/categories/</link>
-        <description>Categories - Categoria - Sociedade de Instução Musical da Quinta do Anjo</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><managingEditor>geral.simqa@gmail.com ( S.I.M)</managingEditor>
-            <webMaster>geral.simqa@gmail.com ( S.I.M)</webMaster><copyright>Andreia Silva</copyright><lastBuildDate>Tue, 10 Mar 2026 19:21:01 &#43;0000</lastBuildDate><atom:link href="https://simquintadoanjo.com/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Jantar</title>
-    <link>https://simquintadoanjo.com/categories/jantar/</link>
-    <pubDate>Tue, 10 Mar 2026 19:21:01 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/jantar/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Assembleia Geral</title>
-    <link>https://simquintadoanjo.com/categories/assembleia-geral/</link>
-    <pubDate>Mon, 09 Mar 2026 16:12:03 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/assembleia-geral/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Quotas</title>
-    <link>https://simquintadoanjo.com/categories/quotas/</link>
-    <pubDate>Mon, 09 Mar 2026 16:12:03 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/quotas/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Dia Da Mulher 2026</title>
-    <link>https://simquintadoanjo.com/categories/dia-da-mulher-2026/</link>
-    <pubDate>Sun, 08 Mar 2026 21:26:16 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/dia-da-mulher-2026/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>História</title>
-    <link>https://simquintadoanjo.com/categories/hist%C3%B3ria/</link>
-    <pubDate>Sat, 07 Mar 2026 05:09:21 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/hist%C3%B3ria/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Carnaval 2025</title>
-    <link>https://simquintadoanjo.com/categories/carnaval-2025/</link>
-    <pubDate>Sun, 25 Jan 2026 03:15:09 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/carnaval-2025/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Yoga</title>
-    <link>https://simquintadoanjo.com/categories/yoga/</link>
-    <pubDate>Sat, 24 Jan 2026 03:31:54 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/yoga/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Africandanceroots</title>
-    <link>https://simquintadoanjo.com/categories/africandanceroots/</link>
-    <pubDate>Sun, 18 Jan 2026 03:47:47 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/africandanceroots/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Natal 2025</title>
-    <link>https://simquintadoanjo.com/categories/natal-2025/</link>
-    <pubDate>Thu, 25 Dec 2025 19:07:59 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/categories/natal-2025/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Sociedade de Instução Musical da Quinta do Anjo</title>
+    <link>https://simquintadoanjo.com/categories/</link>
+    <description>Recent content in Categories on Sociedade de Instução Musical da Quinta do Anjo</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <managingEditor>geral.simqa@gmail.com ( S.I.M)</managingEditor>
+    <webMaster>geral.simqa@gmail.com ( S.I.M)</webMaster>
+    <copyright>Andreia Silva</copyright>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://simquintadoanjo.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Banda</title>
+      <link>https://simquintadoanjo.com/categories/banda/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/banda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jantar</title>
+      <link>https://simquintadoanjo.com/categories/jantar/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/jantar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Assembleia Geral</title>
+      <link>https://simquintadoanjo.com/categories/assembleia-geral/</link>
+      <pubDate>Mon, 09 Mar 2026 16:12:03 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/assembleia-geral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotas</title>
+      <link>https://simquintadoanjo.com/categories/quotas/</link>
+      <pubDate>Mon, 09 Mar 2026 16:12:03 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/quotas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dia Da Mulher 2026</title>
+      <link>https://simquintadoanjo.com/categories/dia-da-mulher-2026/</link>
+      <pubDate>Sun, 08 Mar 2026 21:26:16 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/dia-da-mulher-2026/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>História</title>
+      <link>https://simquintadoanjo.com/categories/hist%C3%B3ria/</link>
+      <pubDate>Sat, 07 Mar 2026 05:09:21 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/hist%C3%B3ria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnaval 2025</title>
+      <link>https://simquintadoanjo.com/categories/carnaval-2025/</link>
+      <pubDate>Sun, 25 Jan 2026 03:15:09 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/carnaval-2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yoga</title>
+      <link>https://simquintadoanjo.com/categories/yoga/</link>
+      <pubDate>Sat, 24 Jan 2026 03:31:54 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/yoga/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Africandanceroots</title>
+      <link>https://simquintadoanjo.com/categories/africandanceroots/</link>
+      <pubDate>Sun, 18 Jan 2026 03:47:47 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/africandanceroots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Natal 2025</title>
+      <link>https://simquintadoanjo.com/categories/natal-2025/</link>
+      <pubDate>Thu, 25 Dec 2025 19:07:59 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/categories/natal-2025/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

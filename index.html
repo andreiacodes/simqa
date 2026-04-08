@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-	<meta name="generator" content="Hugo 0.131.0">
+	<meta name="generator" content="Hugo 0.160.1">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
@@ -18,9 +18,10 @@
   <meta name="twitter:title" content="Sociedade de Instução Musical da Quinta do Anjo">
   <meta name="twitter:description" content="A SIM foi fundada em 1921 por músicos da Quinta do Anjo. Mantém viva a tradição filarmónica com a Banda, Orquestra Ligeira, Coro e formação musical.">
 <meta name="application-name" content="Sociedade de Instrução Musical da Quinta do Anjo">
-<meta name="apple-mobile-web-app-title" content="Sociedade de Instrução Musical da Quinta do Anjo"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://simquintadoanjo.com/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="Sociedade de Instução Musical da Quinta do Anjo">
-    <link rel="feed" href="/index.xml" type="application/rss+xml" title="Sociedade de Instução Musical da Quinta do Anjo"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="Sociedade de Instrução Musical da Quinta do Anjo">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://simquintadoanjo.com/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="Sociedade de Instução Musical da Quinta do Anjo">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="Sociedade de Instução Musical da Quinta do Anjo"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -31,7 +32,18 @@
             },"description": "A SIM foi fundada em 1921 por músicos da Quinta do Anjo. Mantém viva a tradição filarmónica com a Banda, Orquestra Ligeira, Coro e formação musical.","image": "https:\/\/simquintadoanjo.com\/images\/logo.png","thumbnailUrl": "https:\/\/simquintadoanjo.com\/images\/logo-branco.png","license": "Andreia Silva","name": "Sociedade de Instução Musical da Quinta do Anjo"
     }
     </script></head>
-    <body data-header-desktop="auto" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
@@ -46,19 +58,19 @@
         title="/images/logo.png" />S.I.M</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Notícias </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categorias </a><a class="menu-item" href="/about/"> História </a><a class="menu-item" href="/gallery/"> Galeria </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Notícias </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categorias </a><a class="menu-item" href="/about/"> História </a><a class="menu-item" href="/banda/"> Banda </a><a class="menu-item" href="/gallery/"> Galeria </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Pesquisar títulos ou conteúdos ..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Pesquisa">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                            <i class="fas fa-search" aria-hidden="true"></i>
                         </a>
                         <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpar">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
                         </span>
                     </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
                 </a></div>
         </div>
     </div>
@@ -83,20 +95,20 @@
                     <div class="search mobile" id="search-mobile">
                         <input type="text" placeholder="Pesquisar títulos ou conteúdos ..." id="search-input-mobile">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Pesquisa">
-                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                            <i class="fas fa-search" aria-hidden="true"></i>
                         </a>
                         <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpar">
-                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                            <i class="fas fa-times-circle" aria-hidden="true"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                            <i class="fas fa-spinner fa-spin" aria-hidden="true"></i>
                         </span>
                     </div>
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         Cancelar
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">Notícias</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categorias</a><a class="menu-item" href="/about/" title="">História</a><a class="menu-item" href="/gallery/" title="">Galeria</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </div><a class="menu-item" href="/posts/" title="">Notícias</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categorias</a><a class="menu-item" href="/about/" title="">História</a><a class="menu-item" href="/banda/" title="">Banda</a><a class="menu-item" href="/gallery/" title="">Galeria</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Trocar tema">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
             </a></div>
     </div>
 </header><div class="search-dropdown desktop">
@@ -112,8 +124,32 @@
         data-srcset="/images/about.jpeg, /images/about.jpeg 1.5x, /images/about.jpeg 2x"
         data-sizes="auto"
         alt="/images/about.jpeg"
-        title="/images/about.jpeg" /></a></div><h1 class="home-title">Sociedade de Instrução Musical da Quinta do Anjo</h1><div class="home-subtitle">Rua João de Deus, 74-76, 2950-731 Quinta do Anjo, Portugal. Qualquer dúvida ou questão envie um e-mail para geral.simqa@gmail.com.</div><div class="links"><a href="https://www.instagram.com/sociedadeinstrucaomusical" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i></a><a href="https://facebook.com/people/SIM-Sociedade-de-Instru%C3%A7%C3%A3o-Musical-Quinta-do-Anjo/100064496962530/" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook fa-fw" aria-hidden="true"></i></a><a href="https://www.youtube.com/@socinstrucaomusicalqtadoan6301" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube fa-fw" aria-hidden="true"></i></a><a href="mailto:geral.simqa@gmail.com" title="Email" rel="me"><i class="far fa-envelope fa-fw" aria-hidden="true"></i></a></div></div>
+        title="/images/about.jpeg" /></a></div><h1 class="home-title">Sociedade de Instrução Musical da Quinta do Anjo</h1><div class="home-subtitle">Rua João de Deus, 74-76, 2950-731 Quinta do Anjo, Portugal. Qualquer dúvida ou questão envie um e-mail para geral.simqa@gmail.com.</div><div class="links"><a href="https://www.instagram.com/sociedadeinstrucaomusical" title="Instagram" target="_blank" rel="noopener noreffer me"><i class="fab fa-instagram" aria-hidden="true"></i></a><a href="https://facebook.com/people/SIM-Sociedade-de-Instru%C3%A7%C3%A3o-Musical-Quinta-do-Anjo/100064496962530/" title="facebook" target="_blank" rel="noopener noreffer me"><i class="fab fa-facebook" aria-hidden="true"></i></a><a href="https://www.youtube.com/c/@socinstrucaomusicalqtadoan6301" title="YouTube" target="_blank" rel="noopener noreffer me"><i class="fab fa-youtube" aria-hidden="true"></i></a><a href="mailto:geral.simqa@gmail.com" title="Email" rel="me"><i class="far fa-envelope" aria-hidden="true"></i></a></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/060426-fados-vagas/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/060426-fados-vagas-p.png"
+        data-srcset="/images/060426-fados-vagas-p.png, /images/060426-fados-vagas-p.png 1.5x, /images/060426-fados-vagas-p.png 2x"
+        data-sizes="auto"
+        alt="/images/060426-fados-vagas-p.png"
+        title="/images/060426-fados-vagas-p.png" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/060426-fados-vagas/">Ultimas Vagas para a Noite de Fados</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="06/04/2026">06/04/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder" aria-hidden="true"></i>Jantar</a></span></div><div class="content"><div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+⚠️ Últimos lugares disponíveis
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+Uma noite onde a tradição, a emoção e a música portuguesa se encontram.</p>
+<p>
+No próximo dia <strong>11 de abril</strong>, a Quinta do Anjo recebe uma Noite de Fados muito especial, com a presença de vários fadistas convidados, acompanhados por guitarra portuguesa e viola de fado.</p>
+<p>
+Um serão pensado para celebrar a nossa cultura, num ambiente intimista, com boa comida, boa música e, acima de tudo, boa companhia.</p></div><div class="post-footer">
+        <a href="/060426-fados-vagas/">Leia mais</a><div class="post-tags">
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/fado/">Fado</a>,&nbsp;<a href="/tags/jantar/">Jantar</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/100326-noite-de-fados/"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -124,10 +160,11 @@
         title="/images/100326-noite-de-fados.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/100326-noite-de-fados/">Noite de Fados</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="10/03/2026">10/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jantar</a></span></div><div class="content">🎶✨ Noite de Fados na Quinta do Anjo ✨🎶 O Quintajense Futebol Clube e a Sociedade de Instrução Musical da Quinta do Anjo estão a preparar mais uma Noite de Fados, que terá lugar no próximo 11 de abril.
-Esta é mais uma edição de um evento que, ano após ano, tem vindo a esgotar e a afirmar-se como um grande sucesso, reunindo amantes do fado e da cultura portuguesa numa noite muito especial.</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="10/03/2026">10/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder" aria-hidden="true"></i>Jantar</a></span></div><div class="content"><h2 id="-noite-de-fados-na-quinta-do-anjo-">🎶✨ Noite de Fados na Quinta do Anjo ✨🎶</h2>
+<p>O Quintajense Futebol Clube e a Sociedade de Instrução Musical da Quinta do Anjo estão a preparar mais uma <strong>Noite de Fados</strong>, que terá lugar no próximo <strong>11 de abril</strong>.</p>
+<p>Esta é mais uma edição de um evento que, ano após ano, tem vindo a esgotar e a afirmar-se como um grande sucesso, reunindo amantes do fado e da cultura portuguesa numa noite muito especial.</p></div><div class="post-footer">
         <a href="/100326-noite-de-fados/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/fado/">Fado</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/fado/">Fado</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/090326-convocatoria/"><img
         class="lazyload"
@@ -139,10 +176,11 @@ Esta é mais uma edição de um evento que, ano após ano, tem vindo a esgotar e
         title="/images/090326-convocatoria.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/090326-convocatoria/">Assembleia Geral</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="09/03/2026">09/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/quotas/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Quotas</a>&nbsp;<a href="/categories/assembleia-geral/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Assembleia Geral</a></span></div><div class="content">📄 Convocatória – Assembleia Geral Informam-se todos os sócios da Sociedade de Instrução Musical da Quinta do Anjo que irá realizar-se uma Assembleia Geral no próximo dia 26 de março de 2026, pelas 20h30, nas instalações da S.I.M.
-A participação dos sócios é fundamental para o bom funcionamento e futuro da nossa associação.</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="09/03/2026">09/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/quotas/"><i class="far fa-folder" aria-hidden="true"></i>Quotas</a>&nbsp;<a href="/categories/assembleia-geral/"><i class="far fa-folder" aria-hidden="true"></i>Assembleia Geral</a></span></div><div class="content"><h2 id="-convocatória--assembleia-geral">📄 Convocatória – Assembleia Geral</h2>
+<p>Informam-se todos os <strong>sócios</strong> da Sociedade de Instrução Musical da Quinta do Anjo que irá realizar-se uma <strong>Assembleia Geral</strong> no próximo dia <strong>26 de março de 2026</strong>, pelas <strong>20h30</strong>, nas instalações da S.I.M.</p>
+<p>A participação dos sócios é fundamental para o bom funcionamento e futuro da nossa associação.</p></div><div class="post-footer">
         <a href="/090326-convocatoria/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/convocat%C3%B3ria/">Convocatória</a>,&nbsp;<a href="/tags/s%C3%B3cios/">Sócios</a>,&nbsp;<a href="/tags/informa%C3%A7%C3%B5es/">Informações</a>,&nbsp;<a href="/tags/assembleia-geral/">Assembleia Geral</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/convocat%C3%B3ria/">Convocatória</a>,&nbsp;<a href="/tags/s%C3%B3cios/">Sócios</a>,&nbsp;<a href="/tags/informa%C3%A7%C3%B5es/">Informações</a>,&nbsp;<a href="/tags/assembleia-geral/">Assembleia Geral</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/080326-dia-da-mulher/"><img
         class="lazyload"
@@ -154,10 +192,11 @@ A participação dos sócios é fundamental para o bom funcionamento e futuro da
         title="/images/080326-dia-da-mulher.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/080326-dia-da-mulher/">Dia Da Mulher 2026</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="08/03/2026">08/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/dia-da-mulher-2026/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Dia Da Mulher 2026</a></span></div><div class="content">🌸 Dia Internacional da Mulher 🌸 Neste Dia Internacional da Mulher, a Sociedade de Instrução Musical da Quinta do Anjo presta homenagem a todas as mulheres que, ao longo dos anos, fazem parte da nossa história e da nossa casa.
-Mulheres que ensinam, que inspiram, que organizam, que apoiam, que sobem ao palco, que trabalham nos bastidores e que ajudam, todos os dias, a manter viva a música, a cultura e o espírito de comunidade.</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="08/03/2026">08/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/dia-da-mulher-2026/"><i class="far fa-folder" aria-hidden="true"></i>Dia Da Mulher 2026</a></span></div><div class="content"><h2 id="-dia-internacional-da-mulher-">🌸 Dia Internacional da Mulher 🌸</h2>
+<p>Neste Dia Internacional da Mulher, a Sociedade de Instrução Musical da Quinta do Anjo presta homenagem a todas as mulheres que, ao longo dos anos, fazem parte da nossa história e da nossa casa.</p>
+<p>Mulheres que ensinam, que inspiram, que organizam, que apoiam, que sobem ao palco, que trabalham nos bastidores e que ajudam, todos os dias, a manter viva a música, a cultura e o espírito de comunidade.</p></div><div class="post-footer">
         <a href="/080326-dia-da-mulher/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/dia-da-mulher/">Dia Da Mulher</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/dia-da-mulher/">Dia Da Mulher</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/040326-dia-da-mulher-vagas/"><img
         class="lazyload"
@@ -169,15 +208,16 @@ Mulheres que ensinam, que inspiram, que organizam, que apoiam, que sobem ao palc
         title="/images/dia-da-mulher26.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/040326-dia-da-mulher-vagas/">Últimas Vagas para o Dia da Mulher 2026</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="04/03/2026">04/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jantar</a>&nbsp;<a href="/categories/dia-da-mulher-2026/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Dia Da Mulher 2026</a></span></div><div class="content">ÚLTIMAS VAGAS – JANTAR DIA DA MULHER 🌸🚨 O dia 7 está quase aí… e estamos quase com casa cheia! 💗
-Se ainda não fizeste a tua reserva para o Jantar do Dia da Mulher na SIM, esta é a altura ✨
-🕣 20h30
-📍 Sociedade de Instrução Musical – Quinta do Anjo
-🌷 Valor: 25 flores
-🎶 Animação musical e muitas surpresas
-📞 Reservas: 915 591 969 ou no Bar da SIM / Secretaria do QFC</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="04/03/2026">04/03/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder" aria-hidden="true"></i>Jantar</a>&nbsp;<a href="/categories/dia-da-mulher-2026/"><i class="far fa-folder" aria-hidden="true"></i>Dia Da Mulher 2026</a></span></div><div class="content"><h2 id="últimas-vagas--jantar-dia-da-mulher-">ÚLTIMAS VAGAS – JANTAR DIA DA MULHER 🌸🚨</h2>
+<p>O dia 7 está quase aí… e estamos quase com casa cheia! 💗</p>
+<p>Se ainda não fizeste a tua reserva para o Jantar do Dia da Mulher na SIM, esta é a altura ✨</p>
+<p>🕣 20h30<br>
+📍 Sociedade de Instrução Musical – Quinta do Anjo<br>
+🌷 <strong>Valor</strong>: 25 flores<br>
+🎶 Animação musical e muitas surpresas<br>
+📞 <strong>Reservas</strong>: 915 591 969 ou no Bar da SIM / Secretaria do QFC</p></div><div class="post-footer">
         <a href="/040326-dia-da-mulher-vagas/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/dia-da-mulher/">Dia Da Mulher</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/dia-da-mulher/">Dia Da Mulher</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/270226-dia-da-mulher/"><img
         class="lazyload"
@@ -189,11 +229,19 @@ Se ainda não fizeste a tua reserva para o Jantar do Dia da Mulher na SIM, esta 
         title="/images/dia-da-mulher26.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/270226-dia-da-mulher/">Dia da Mulher 2026</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="27/02/2026">27/02/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/dia-da-mulher-2026/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Dia Da Mulher 2026</a>&nbsp;<a href="/categories/jantar/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jantar</a></span></div><div class="content">💗✨ Jantar Dia da Mulher – Novo Valor &amp; Ementa Revelada! ✨💗 O Dia da Mulher aproxima-se… e temos novidades! 🌸
-No próximo 7 de março, às 20h30, o Quintajense Futebol Clube e a Sociedade de Instrução Musical da Quinta do Anjo convidam toda a comunidade para uma noite especial de celebração, convívio e boa disposição.
-🍽️ Ementa especial da noite: ✨ Creme de Peixe à Moda da Casa ✨ Bacalhau Gratinado com Espinafres Frescos e Crosta de Broa Dourada ✨ Cachaço Assado Lentamente no Forno, com Batata Assada Aromatizada e Puré de Maçã Caseiro ✨ Seleção de Sobremesas Tradicionais 🎶 Animação musical e muitas surpresas ao longo da noite!</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="27/02/2026">27/02/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/dia-da-mulher-2026/"><i class="far fa-folder" aria-hidden="true"></i>Dia Da Mulher 2026</a>&nbsp;<a href="/categories/jantar/"><i class="far fa-folder" aria-hidden="true"></i>Jantar</a></span></div><div class="content"><h2 id="-jantar-dia-da-mulher--novo-valor--ementa-revelada-">💗✨ Jantar Dia da Mulher – Novo Valor &amp; Ementa Revelada! ✨💗</h2>
+<p>O Dia da Mulher aproxima-se… e temos novidades! 🌸</p>
+<p>No próximo <strong>7 de março, às 20h30</strong>, o Quintajense Futebol Clube e a Sociedade de Instrução Musical da Quinta do Anjo convidam toda a comunidade para uma noite especial de celebração, convívio e boa disposição.</p>
+<h3 id="-ementa-especial-da-noite">🍽️ Ementa especial da noite:</h3>
+<ul>
+<li>✨ Creme de Peixe à Moda da Casa</li>
+<li>✨ Bacalhau Gratinado com Espinafres Frescos e Crosta de Broa Dourada</li>
+<li>✨ Cachaço Assado Lentamente no Forno, com Batata Assada Aromatizada e Puré de Maçã Caseiro</li>
+<li>✨ Seleção de Sobremesas Tradicionais</li>
+</ul>
+<p>🎶 Animação musical e muitas surpresas ao longo da noite!</p></div><div class="post-footer">
         <a href="/270226-dia-da-mulher/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/dia-da-mulher/">Dia Da Mulher</a>,&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/dia-da-mulher/">Dia Da Mulher</a>,&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/170226-quotas/"><img
         class="lazyload"
@@ -205,11 +253,17 @@ No próximo 7 de março, às 20h30, o Quintajense Futebol Clube e a Sociedade de
         title="/images/quotas26.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/170226-quotas/">Pagamento de Quotas</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="17/02/2026">17/02/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/quotas/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Quotas</a></span></div><div class="content">📌 AVISO IMPORTANTE | PAGAMENTO DE QUOTAS Caros(as) Sócios(as),
-A Direção da Sociedade de Instrução Musical da Quinta do Anjo informa que a S.I.M. deixou de ter cobrador, pelo que o pagamento das quotas passa a ser feito de forma mais simples, através de uma destas opções:
-✅ No Bar da S.I.M. ✅ Diretamente com um membro da Direção ✅ Por Transferência Bancária (dados fornecidos mediante pedido) 📩 Para pagamentos por transferência, dúvidas ou qualquer apoio, contacte-nos por email:</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="17/02/2026">17/02/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/quotas/"><i class="far fa-folder" aria-hidden="true"></i>Quotas</a></span></div><div class="content"><h2 id="-aviso-importante--pagamento-de-quotas">📌 AVISO IMPORTANTE | PAGAMENTO DE QUOTAS</h2>
+<p>Caros(as) Sócios(as),</p>
+<p>A Direção da Sociedade de Instrução Musical da Quinta do Anjo informa que a S.I.M. deixou de ter cobrador, pelo que o pagamento das quotas passa a ser feito de forma mais simples, através de uma destas opções:</p>
+<ul>
+<li>✅ No Bar da S.I.M.</li>
+<li>✅ Diretamente com um membro da Direção</li>
+<li>✅ Por Transferência Bancária (dados fornecidos mediante pedido)</li>
+</ul>
+<p>📩 Para pagamentos por transferência, dúvidas ou qualquer apoio, contacte-nos por email:</p></div><div class="post-footer">
         <a href="/170226-quotas/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/quotas/">Quotas</a>,&nbsp;<a href="/tags/pagamentos/">Pagamentos</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/quotas/">Quotas</a>,&nbsp;<a href="/tags/pagamentos/">Pagamentos</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/250126-carnaval/"><img
         class="lazyload"
@@ -221,14 +275,17 @@ A Direção da Sociedade de Instrução Musical da Quinta do Anjo informa que a 
         title="/images/carnaval26.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/250126-carnaval/">Carnaval 2026</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="25/01/2026">25/01/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jantar</a>&nbsp;<a href="/categories/carnaval-2025/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Carnaval 2025</a></span></div><div class="content">🎉🎭 CARNAVAL NA SIM | MONTANHÃO 2026 🎭🎉 Para os mais pequenos brincarem,
-para a família celebrar…
-o Carnaval vive-se na SIM! 🥳🎶
-A Sociedade de Instrução Musical da Quinta do Anjo convida toda a comunidade a juntar-se a nós para duas noites de Carnaval cheias de cor, música e boa disposição.
-📅 14 de fevereiro | 21h 🎤 Rui Terrinha
-📅 16 de fevereiro | 21h 🎤 Luís Miguel Casanova</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="25/01/2026">25/01/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/jantar/"><i class="far fa-folder" aria-hidden="true"></i>Jantar</a>&nbsp;<a href="/categories/carnaval-2025/"><i class="far fa-folder" aria-hidden="true"></i>Carnaval 2025</a></span></div><div class="content"><h2 id="-carnaval-na-sim--montanhão-2026-">🎉🎭 CARNAVAL NA SIM | MONTANHÃO 2026 🎭🎉</h2>
+<p>Para os mais pequenos brincarem,</p>
+<p>para a família celebrar…</p>
+<p>o Carnaval vive-se na SIM! 🥳🎶</p>
+<p>A Sociedade de Instrução Musical da Quinta do Anjo convida toda a comunidade a juntar-se a nós para duas noites de Carnaval cheias de cor, música e boa disposição.</p>
+<h3 id="-14-de-fevereiro--21h">📅 14 de fevereiro | 21h</h3>
+<p>🎤 Rui Terrinha</p>
+<h3 id="-16-de-fevereiro--21h">📅 16 de fevereiro | 21h</h3>
+<p>🎤 Luís Miguel Casanova</p></div><div class="post-footer">
         <a href="/250126-carnaval/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/carnaval/">Carnaval</a>,&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/carnaval/">Carnaval</a>,&nbsp;<a href="/tags/jantar/">Jantar</a>,&nbsp;<a href="/tags/reservas/">Reservas</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/240126-yoga/"><img
         class="lazyload"
@@ -240,11 +297,12 @@ A Sociedade de Instrução Musical da Quinta do Anjo convida toda a comunidade a
         title="/images/yoga.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/240126-yoga/">Aula aberta de Yoga</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="24/01/2026">24/01/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/yoga/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Yoga</a></span></div><div class="content">🧘‍♀️ Yoga na SIM | Aula Aberta 🧘‍♂️ A Sociedade de Instrução Musical da Quinta do Anjo convida toda a comunidade a participar numa Aula Aberta de Yoga, no próximo dia 31 de janeiro, às 17h.
-Uma oportunidade para abrandar, cuidar do corpo e da mente, melhorar a concentração, reduzir o stress e renovar energias, num ambiente tranquilo e acessível a todos.
-👉 Traga o seu tapete e venha experimentar esta prática que promove bem-estar e equilíbrio no dia a dia.</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="24/01/2026">24/01/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/yoga/"><i class="far fa-folder" aria-hidden="true"></i>Yoga</a></span></div><div class="content"><h2 id="-yoga-na-sim--aula-aberta-">🧘‍♀️ Yoga na SIM | Aula Aberta 🧘‍♂️</h2>
+<p>A Sociedade de Instrução Musical da Quinta do Anjo convida toda a comunidade a participar numa Aula Aberta de Yoga, no próximo dia <strong>31 de janeiro, às 17h</strong>.</p>
+<p>Uma oportunidade para abrandar, cuidar do corpo e da mente, melhorar a concentração, reduzir o stress e renovar energias, num ambiente tranquilo e acessível a todos.</p>
+<p>👉 Traga o seu tapete e venha experimentar esta prática que promove bem-estar e equilíbrio no dia a dia.</p></div><div class="post-footer">
         <a href="/240126-yoga/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/yoga/">Yoga</a>,&nbsp;<a href="/tags/aula-aberta/">Aula Aberta</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/yoga/">Yoga</a>,&nbsp;<a href="/tags/aula-aberta/">Aula Aberta</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
             <a href="/180126-africandanceroots/"><img
         class="lazyload"
@@ -256,35 +314,21 @@ Uma oportunidade para abrandar, cuidar do corpo e da mente, melhorar a concentra
         title="/images/africandanceroots.png" /></a>
         </div><h1 class="single-title" itemprop="name headline">
         <a href="/180126-africandanceroots/">African Dance Roots</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="18/01/2026">18/01/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/africandanceroots/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Africandanceroots</a></span></div><div class="content">O melhor da nossa semana! Voltámos a dançar juntos 🌱💜
-Alegria, união e família — tudo aquilo que nos move 🫶🏽✨
-Obrigada por fazerem parte deste caminho 🥰
-🌟 Kids &amp; Teens — Quinta do Anjo 2ª &amp; 4ª — 18h45
-@sociedadeinstrucaomusical
-@kidsforeverquintadoanjo
-🌿 Adultos — Quinta do Conde 3ª &amp; 5ª — 20h10
-📍 @uniao_udrqc
-⭐ Kids &amp; Teens — Quinta do Conde ⏳ Nova aula Aguarda inscrições suficientes para a sua abertura.</div><div class="post-footer">
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="18/01/2026">18/01/2026</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/africandanceroots/"><i class="far fa-folder" aria-hidden="true"></i>Africandanceroots</a></span></div><div class="content"><h2 id="o-melhor-da-nossa-semana">O melhor da nossa semana!</h2>
+<p>Voltámos a dançar juntos 🌱💜</p>
+<p>Alegria, união e família — tudo aquilo que nos move 🫶🏽✨</p>
+<p>Obrigada por fazerem parte deste caminho 🥰</p>
+<h3 id="-kids--teens--quinta-do-anjo">🌟 Kids &amp; Teens — Quinta do Anjo</h3>
+<p>2ª &amp; 4ª — 18h45</p>
+<p><a href="https://www.instagram.com/sociedadeinstrucaomusical/" target="_blank" rel="noopener noreffer ">@sociedadeinstrucaomusical</a></p>
+<p><a href="https://www.instagram.com/kidsforeverquintadoanjo/" target="_blank" rel="noopener noreffer ">@kidsforeverquintadoanjo</a></p>
+<h3 id="-adultos--quinta-do-conde">🌿 Adultos — Quinta do Conde</h3>
+<p>3ª &amp; 5ª — 20h10</p>
+<p>📍 <a href="https://www.instagram.com/uniao_udrqc/" target="_blank" rel="noopener noreffer ">@uniao_udrqc</a></p>
+<h3 id="-kids--teens--quinta-do-conde">⭐ Kids &amp; Teens — Quinta do Conde</h3>
+<p>⏳ Nova aula Aguarda inscrições suficientes para a sua abertura.</p></div><div class="post-footer">
         <a href="/180126-africandanceroots/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/rute-andr%C3%A9/">Rute André</a>,&nbsp;<a href="/tags/dan%C3%A7a/">Dança</a>,&nbsp;<a href="/tags/africandanceroots/">Africandanceroots</a>,&nbsp;<a href="/tags/video/">Video</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/251225-africandanceroots/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/africandanceroots-natal25.png"
-        data-srcset="/images/africandanceroots-natal25.png, /images/africandanceroots-natal25.png 1.5x, /images/africandanceroots-natal25.png 2x"
-        data-sizes="auto"
-        alt="/images/africandanceroots-natal25.png"
-        title="/images/africandanceroots-natal25.png" /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/251225-africandanceroots/">A Turma Kids e Teens deseja um a todos um Feliz Natal</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i> S.I.M</a></span>&nbsp;<span class="post-publish">publicado em <time datetime="25/12/2025">25/12/2025</time></span>&nbsp;<span class="post-category">incluido em <a href="/categories/africandanceroots/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Africandanceroots</a>&nbsp;<a href="/categories/natal-2025/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Natal 2025</a></span></div><div class="content">Turma Kids &amp; Teens @africandanceroots
-@sociedadeinstrucaomusical
-Que neste Natal o ritmo seja de alegria, os passos sejam de amor e os corações das nossas pequenas bailarinas dancem cheios de esperança.” 🎶💖
-Feliz Natal 🎄 🎅🏽 🤗
-View this post on Instagram </div><div class="post-footer">
-        <a href="/251225-africandanceroots/">Leia mais</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/africandanceroots/">Africandanceroots</a>,&nbsp;<a href="/tags/rute-andr%C3%A9/">Rute André</a>,&nbsp;<a href="/tags/natal/">Natal</a>,&nbsp;<a href="/tags/video/">Video</a></div></div>
+                <i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/rute-andr%C3%A9/">Rute André</a>,&nbsp;<a href="/tags/dan%C3%A7a/">Dança</a>,&nbsp;<a href="/tags/africandanceroots/">Africandanceroots</a>,&nbsp;<a href="/tags/video/">Video</a></div></div>
 </article><ul class="pagination"><li class="page-item active">
                     <span class="page-link">
                         <a href="/">1</a>
@@ -295,14 +339,17 @@ View this post on Instagram </div><div class="post-footer">
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Desde 1921 a manter viva a tradição filarmónica.</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2026</span></div>
+        <div class="footer-container"><div class="footer-line">Desde 1921 a manter viva a tradição filarmónica.</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2026</span></div>
         </div>
     </footer></div>
 
         <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Voltar ao topo">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentários">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.pt.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar para a área de transferência","maxShownLines":50},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"pt","maxResultLength":10,"noResultsFound":"Nenhum resultado encontrado","snippetLength":30,"type":"lunr"},"twemoji":true};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="Ver comentários">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script src="/lib/lunr/lunr.stemmer.support.min.js"></script><script src="/lib/lunr/lunr.pt.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script>window.config={"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"pt","maxResultLength":10,"noResultsFound":"Nenhum resultado encontrado","snippetLength":30,"type":"lunr"},"twemoji":true};</script><script src="/js/theme.js"></script></body>
 </html>

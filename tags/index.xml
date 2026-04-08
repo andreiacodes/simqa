@@ -1,88 +1,190 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Tag - Sociedade de Instução Musical da Quinta do Anjo</title>
-        <link>https://simquintadoanjo.com/tags/</link>
-        <description>Tags - Tag - Sociedade de Instução Musical da Quinta do Anjo</description>
-        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><managingEditor>geral.simqa@gmail.com ( S.I.M)</managingEditor>
-            <webMaster>geral.simqa@gmail.com ( S.I.M)</webMaster><copyright>Andreia Silva</copyright><lastBuildDate>Tue, 10 Mar 2026 19:21:01 &#43;0000</lastBuildDate><atom:link href="https://simquintadoanjo.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Fado</title>
-    <link>https://simquintadoanjo.com/tags/fado/</link>
-    <pubDate>Tue, 10 Mar 2026 19:21:01 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/fado/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Jantar</title>
-    <link>https://simquintadoanjo.com/tags/jantar/</link>
-    <pubDate>Tue, 10 Mar 2026 19:21:01 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/jantar/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Reservas</title>
-    <link>https://simquintadoanjo.com/tags/reservas/</link>
-    <pubDate>Tue, 10 Mar 2026 19:21:01 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/reservas/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Assembleia Geral</title>
-    <link>https://simquintadoanjo.com/tags/assembleia-geral/</link>
-    <pubDate>Mon, 09 Mar 2026 16:12:03 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/assembleia-geral/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Convocatória</title>
-    <link>https://simquintadoanjo.com/tags/convocat%C3%B3ria/</link>
-    <pubDate>Mon, 09 Mar 2026 16:12:03 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/convocat%C3%B3ria/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Informações</title>
-    <link>https://simquintadoanjo.com/tags/informa%C3%A7%C3%B5es/</link>
-    <pubDate>Mon, 09 Mar 2026 16:12:03 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/informa%C3%A7%C3%B5es/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Sócios</title>
-    <link>https://simquintadoanjo.com/tags/s%C3%B3cios/</link>
-    <pubDate>Mon, 09 Mar 2026 16:12:03 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/s%C3%B3cios/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Dia Da Mulher</title>
-    <link>https://simquintadoanjo.com/tags/dia-da-mulher/</link>
-    <pubDate>Sun, 08 Mar 2026 21:26:16 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/dia-da-mulher/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Contacto</title>
-    <link>https://simquintadoanjo.com/tags/contacto/</link>
-    <pubDate>Sat, 07 Mar 2026 05:09:21 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/contacto/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>História</title>
-    <link>https://simquintadoanjo.com/tags/hist%C3%B3ria/</link>
-    <pubDate>Sat, 07 Mar 2026 05:09:21 &#43;0000</pubDate>
-    <author> S.I.M</author>
-    <guid>https://simquintadoanjo.com/tags/hist%C3%B3ria/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sociedade de Instução Musical da Quinta do Anjo</title>
+    <link>https://simquintadoanjo.com/tags/</link>
+    <description>Recent content in Tags on Sociedade de Instução Musical da Quinta do Anjo</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <managingEditor>geral.simqa@gmail.com ( S.I.M)</managingEditor>
+    <webMaster>geral.simqa@gmail.com ( S.I.M)</webMaster>
+    <copyright>Andreia Silva</copyright>
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://simquintadoanjo.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Banda</title>
+      <link>https://simquintadoanjo.com/tags/banda/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/banda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carlos</title>
+      <link>https://simquintadoanjo.com/tags/carlos/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/carlos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lourenço</title>
+      <link>https://simquintadoanjo.com/tags/louren%C3%A7o/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/louren%C3%A7o/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maestro</title>
+      <link>https://simquintadoanjo.com/tags/maestro/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/maestro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fado</title>
+      <link>https://simquintadoanjo.com/tags/fado/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/fado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jantar</title>
+      <link>https://simquintadoanjo.com/tags/jantar/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/jantar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reservas</title>
+      <link>https://simquintadoanjo.com/tags/reservas/</link>
+      <pubDate>Tue, 10 Mar 2026 19:21:01 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/reservas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Assembleia Geral</title>
+      <link>https://simquintadoanjo.com/tags/assembleia-geral/</link>
+      <pubDate>Mon, 09 Mar 2026 16:12:03 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/assembleia-geral/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Convocatória</title>
+      <link>https://simquintadoanjo.com/tags/convocat%C3%B3ria/</link>
+      <pubDate>Mon, 09 Mar 2026 16:12:03 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/convocat%C3%B3ria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Informações</title>
+      <link>https://simquintadoanjo.com/tags/informa%C3%A7%C3%B5es/</link>
+      <pubDate>Mon, 09 Mar 2026 16:12:03 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/informa%C3%A7%C3%B5es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sócios</title>
+      <link>https://simquintadoanjo.com/tags/s%C3%B3cios/</link>
+      <pubDate>Mon, 09 Mar 2026 16:12:03 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/s%C3%B3cios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dia Da Mulher</title>
+      <link>https://simquintadoanjo.com/tags/dia-da-mulher/</link>
+      <pubDate>Sun, 08 Mar 2026 21:26:16 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/dia-da-mulher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>https://simquintadoanjo.com/tags/contacto/</link>
+      <pubDate>Sat, 07 Mar 2026 05:09:21 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/contacto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>História</title>
+      <link>https://simquintadoanjo.com/tags/hist%C3%B3ria/</link>
+      <pubDate>Sat, 07 Mar 2026 05:09:21 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/hist%C3%B3ria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pagamentos</title>
+      <link>https://simquintadoanjo.com/tags/pagamentos/</link>
+      <pubDate>Tue, 17 Feb 2026 23:30:29 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/pagamentos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotas</title>
+      <link>https://simquintadoanjo.com/tags/quotas/</link>
+      <pubDate>Tue, 17 Feb 2026 23:30:29 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/quotas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carnaval</title>
+      <link>https://simquintadoanjo.com/tags/carnaval/</link>
+      <pubDate>Sun, 25 Jan 2026 03:15:09 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/carnaval/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aula Aberta</title>
+      <link>https://simquintadoanjo.com/tags/aula-aberta/</link>
+      <pubDate>Sat, 24 Jan 2026 03:31:54 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/aula-aberta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yoga</title>
+      <link>https://simquintadoanjo.com/tags/yoga/</link>
+      <pubDate>Sat, 24 Jan 2026 03:31:54 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/yoga/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Africandanceroots</title>
+      <link>https://simquintadoanjo.com/tags/africandanceroots/</link>
+      <pubDate>Sun, 18 Jan 2026 03:47:47 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/africandanceroots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dança</title>
+      <link>https://simquintadoanjo.com/tags/dan%C3%A7a/</link>
+      <pubDate>Sun, 18 Jan 2026 03:47:47 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/dan%C3%A7a/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rute André</title>
+      <link>https://simquintadoanjo.com/tags/rute-andr%C3%A9/</link>
+      <pubDate>Sun, 18 Jan 2026 03:47:47 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/rute-andr%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://simquintadoanjo.com/tags/video/</link>
+      <pubDate>Sun, 18 Jan 2026 03:47:47 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Natal</title>
+      <link>https://simquintadoanjo.com/tags/natal/</link>
+      <pubDate>Thu, 25 Dec 2025 19:07:59 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/natal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boas Festas</title>
+      <link>https://simquintadoanjo.com/tags/boas-festas/</link>
+      <pubDate>Mon, 22 Dec 2025 17:10:15 +0000</pubDate><author>geral.simqa@gmail.com ( S.I.M)</author>
+      <guid>https://simquintadoanjo.com/tags/boas-festas/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>
