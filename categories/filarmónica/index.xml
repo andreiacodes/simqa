@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Filarmónica - Categoria - Sociedade de Instução Musical da Quinta do Anjo</title>
+        <link>http://localhost:1313/categories/filarm%C3%B3nica/</link>
+        <description>Filarmónica - Categoria - Sociedade de Instução Musical da Quinta do Anjo</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><managingEditor>geral.simqa@gmail.com ( S.I.M)</managingEditor>
+            <webMaster>geral.simqa@gmail.com ( S.I.M)</webMaster><copyright>Andreia Silva</copyright><atom:link href="http://localhost:1313/categories/filarm%C3%B3nica/" rel="self" type="application/rss+xml" /></channel>
+</rss>
